@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>Home | Horn Project</title>
+<title>Community | Horn Project</title>
 
 <!-- core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -35,9 +35,8 @@
   <link rel="shortcut icon" href="http://apache.org/favicons/favicon.ico">
 </head><!--/head-->
 
-<body class="homepage">
-
-<header id="header">
+<body>
+   <header id="header">
     <nav class="navbar navbar-inverse" role="banner">
         <div class="container">
             <div class="navbar-header">
@@ -52,14 +51,14 @@
 
             <div class="collapse navbar-collapse navbar-right">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="documentation.html">Documentation</a></li>
                     <li><a href="downloads.html">Downloads</a></li>
-                    <li class="dropdown">
+                    <li class="active dropdown">
                     <a href="community.html#" class="dropdown-toggle" data-toggle="dropdown">Community <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu">
                         <li><a href="community.html#mailing_list">Mailing Lists</a></li>
-                        <li><a href="http://https://issues.apache.org/jira/browse/HORN/">Issue Tracker</a></li>
+                        <li><a href="https://issues.apache.org/jira/browse/HORN/">Issue Tracker</a></li>
 			<li><a href="http://incubator.apache.org/projects/horn.html">Project Status</a></li>
                     </ul>
 		    </li>
@@ -80,24 +79,24 @@
 
 </header><!--/header-->
 
-<section id="middle">
+<section id="community">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 wow fadeInDown">
-                <div class="skill">
-                    <h2>What is Horn ?</h2>
-                    <p style="text-align:justify;">Apache Horn [hɔ:n] is neuron-centric programming model and execution framework, inspired by Google's DistBelief, supports both data and model parallelism for training large models with massive datasets.</p>
-                </div>
-
-            </div><!--/.col-sm-6-->
-
-            <div class="col-sm-6 wow fadeInDown">
-		<img src="images/architecture.png" border=0 style="width:100%;" />
-            </div>
-
+        <div class="col-sm-12">
+	<h2>About the Community</h2>
+	<p>Apache Incubator Horn is an open source community that's organized by its members, including you! Whether you're running or writing a framework, or hacking the core, there are opportunities for you to get in touch and ask questions, get involved locally, and contribute back.
+	    </p>
+	<h2>Mailing Lists</h2>
+	<p> The following mailing lists can be used to get help with Horn.</p>
+	<ul>
+	<li> <a href="mailto:dev@horn.incubator.apache.org">horn.incubator.apache.org</a> is for people to contribute code to Horn (<a href="mailto:dev-subscribe@horn.incubator.apache.org">subcribe</a>) (<a href="mailto:dev-unsubscribe@horn.incubator.apache.org">unsubcribe</a>)
+	</ul>
+	<h2>Issue Tracking</h2>
+        <p><a href="https://issues.apache.org/jira/browse/HORN/" target="_blank">Horn JIRA </p>
+	</div>
         </div><!--/.row-->
     </div><!--/.container-->
-</section><!--/#middle-->
+    </section> 
 
 <footer id="footer" class="midnight-blue">
     <div class="container">
@@ -119,6 +118,7 @@
 
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
 <script src="js/jquery.isotope.min.js"></script>
 <script src="js/main.js"></script>
 <script src="js/wow.min.js"></script>
