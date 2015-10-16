@@ -258,10 +258,20 @@ input.search-form:hover {
 }
 
 .navbar-brand {
-  padding: 0;
-  margin:0;
+  padding:2px;
+  margin:2px;
 }
 
+.navbar-affiliate {
+  padding-left:5px;
+  margin:2px;
+}
+
+@media all and (max-width: 1000px) {
+    .navbar-affiliate {
+        display:none;
+    }
+}
 .navbar {
   border-radius:0;
   margin-bottom: 0;
