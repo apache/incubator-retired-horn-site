@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>Home | Horn Project</title>
+<title>Community | Horn Project</title>
 
 <!-- core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -35,9 +35,8 @@
   <link rel="shortcut icon" href="http://apache.org/favicons/favicon.ico">
 </head><!--/head-->
 
-<body class="homepage">
-
-<header id="header">
+<body>
+   <header id="header">
     <nav class="navbar navbar-inverse" role="banner">
         <div class="container">
             <div class="navbar-header">
@@ -49,15 +48,15 @@
                 </button>
                 <a class="navbar-brand" href="index.html">Apache Horn<!--img src="images/logo.png" alt="logo"--></a>
             </div>
-            <div class="navbar-header navbar-affiliate">
+	    <div class="navbar-header navbar-affiliate">
                 <a href="http://incubator.apache.org/" target="_blank"><img src="images/incubator-logo.png" border=0 width="80%"></a>
             </div>
             <div class="collapse navbar-collapse navbar-right">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="documentation.html">Documentation</a></li>
                     <li><a href="downloads.html">Downloads</a></li>
-                    <li class="dropdown">
+                    <li class="active dropdown">
                     <a href="community.html#" class="dropdown-toggle" data-toggle="dropdown">Community <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-menu">
                         <li><a href="community.html#mailing_list">Mailing Lists</a></li>
@@ -82,27 +81,24 @@
 
 </header><!--/header-->
 
-<section id="middle">
+<section id="community">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 wow fadeInDown">
-                <div class="skill">
-                    <h2>What is Horn ?</h2>
-                    <p style="text-align:justify;">Apache Horn [hɔ:n] is neuron-centric programming model and execution framework, inspired by Google's DistBelief, supports both data and model parallelism for training large models with massive datasets.</p>
-                    <h2>Disclaimers</h2>
-                    <p style="text-align:justify;">Apache Horn is an effort undergoing incubation at The Apache Software Foundation (ASF), sponsored by Apache Incubator. Incubation is required of all newly accepted projects until a further review indicates that the infrastructure, communications, and decision making process have stabilized in a manner consistent with other successful ASF projects. While incubation status is not necessarily a reflection of the completeness or stability of the code,
-                    it does indicate that the project has yet to be fully endorsed by the ASF.</p>
-                </div>
-
-            </div><!--/.col-sm-6-->
-
-            <div class="col-sm-6 wow fadeInDown">
-		<img src="images/architecture.png" border=0 style="width:100%;" />
-            </div>
-
+        <div class="col-sm-12">
+	<h2>About the Community</h2>
+	<p>Apache Incubator Horn is an open source community that's organized by its members, including you! Whether you're running or writing a framework, or hacking the core, there are opportunities for you to get in touch and ask questions, get involved locally, and contribute back.
+	    </p>
+	<h2>Mailing Lists</h2>
+	<p> The following mailing lists can be used to get help with Horn.</p>
+	<ul>
+	<li> <a href="mailto:dev@horn.incubator.apache.org">horn.incubator.apache.org</a> is for people to contribute code to Horn (<a href="mailto:dev-subscribe@horn.incubator.apache.org">subcribe</a>) (<a href="mailto:dev-unsubscribe@horn.incubator.apache.org">unsubcribe</a>)
+	</ul>
+	<h2>Issue Tracking</h2>
+    <ul><li type="circle"><a href="https://issues.apache.org/jira/browse/HORN/" target="_blank">Horn JIRA</li></ul>
+	</div>
         </div><!--/.row-->
     </div><!--/.container-->
-</section><!--/#middle-->
+    </section> 
 
 <footer id="footer" class="midnight-blue">
     <div class="container">
@@ -117,6 +113,7 @@
 
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
 <script src="js/jquery.isotope.min.js"></script>
 <script src="js/main.js"></script>
 <script src="js/wow.min.js"></script>
